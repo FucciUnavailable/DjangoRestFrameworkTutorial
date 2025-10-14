@@ -1,5 +1,4 @@
 from django.db import models
-from pygments.lexer import default
 from pygments.lexers import get_all_lexers
 from pygments.styles import get_all_styles
 # Create your models here.

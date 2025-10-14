@@ -2,3 +2,32 @@ env
 .env
 venv/*
 venv
+__pycache__/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# VS Code / PyCharm / IDE stuff
+.vscode/
+.idea/
+
+# Environment variables
+.env
