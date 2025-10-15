@@ -1,6 +1,7 @@
-from django.urls import path
+from django.urls import path, include
 from snippets import views
 from rest_framework.urlpatterns import format_suffix_patterns
+
 
 urlpatterns = [
     path("snippets/", views.SnippetList.as_view()),
