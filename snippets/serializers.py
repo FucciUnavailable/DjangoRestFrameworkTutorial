@@ -14,7 +14,7 @@ class SnippetSerializer(serializers.HyperlinkedModelSerializer):
         fields = [
             "id",
             "title",
-            "hightlight",
+            "highlight",
             "code",
             "linenos",
             "language",
